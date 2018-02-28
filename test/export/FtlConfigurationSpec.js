@@ -32,5 +32,5 @@ describe(FtlConfiguration.className, function()
         }
     }
 
-    configurationSpec(FtlConfiguration, 'export/FtlConfiguration', prepareParameters, { identifier: 'Ftl' });
+    configurationSpec(FtlConfiguration, 'export/FtlConfiguration', prepareParameters, { identifier: 'ftl' });
 });
