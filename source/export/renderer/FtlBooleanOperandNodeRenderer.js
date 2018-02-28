@@ -56,6 +56,10 @@ class FtlBooleanOperandNodeRenderer extends FtlOperandNodeRenderer
             {
                 result+= '|| ';
             }
+            else if (node.value=='not')
+            {
+                result+= '!';
+            }
             else {
                 throw new Error('Could not locate boolean operand value in ' + node.parent);
             }
